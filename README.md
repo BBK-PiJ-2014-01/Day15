@@ -1,4 +1,4 @@
-# Day15
+Day15
 
 Exercise 1:
 - 
