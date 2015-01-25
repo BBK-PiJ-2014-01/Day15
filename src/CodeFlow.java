@@ -1,3 +1,5 @@
+import com.sun.org.apache.bcel.internal.classfile.Code;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -5,6 +7,11 @@ import java.util.List;
  * Created by Pierre on 25/01/2015.
  */
 public class CodeFlow {
+
+    public static void main(String[] args) {
+        CodeFlow flow = new CodeFlow();
+        flow.launch(0);
+    }
 
     public void launch(int userInput) {
         List<Integer> intList = new ArrayList<Integer>();
@@ -33,5 +40,4 @@ public class CodeFlow {
             ex.printStackTrace();
             }
         }
-
 }
