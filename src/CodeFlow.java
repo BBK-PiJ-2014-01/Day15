@@ -10,7 +10,7 @@ public class CodeFlow {
 
     public static void main(String[] args) {
         CodeFlow flow = new CodeFlow();
-        flow.launch(0);
+        flow.launch(6);
     }
 
     public void launch(int userInput) {
