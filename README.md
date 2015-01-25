@@ -11,4 +11,8 @@ Exercise 1:
     01->11, 24->27
 
 Exercise 2:
+- The issue with the code is that there are two catch statements (one generic and one specific)
+that can catch the same exception "NullPointerException".
+
+Exercise 3:
 -

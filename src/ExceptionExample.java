@@ -5,7 +5,7 @@ import java.util.List;
  * Created by Pierre on 25/01/2015.
  */
 public class ExceptionExample {
-    List<Integer> list = new LinkedList<Integer>();
+
 
     public static void main(String[] args) {
         ExceptionExample e = new ExceptionExample();
@@ -14,10 +14,11 @@ public class ExceptionExample {
 
     public void launch() {
         try {
-            // more code here
-            list.add(newElement);
-            // more code here
-        } catch (Exception ex) {
+            List<Integer> list = new LinkedList<Integer>();
+            list.add(10);
+            list.remove(0);
+            list.remove(0);
+        } catch (IndexOutOfBoundsException ex) {
             ex.printStackTrace();
         } catch (NullPointerException ex) {
             ex.printStackTrace();
