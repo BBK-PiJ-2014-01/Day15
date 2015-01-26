@@ -15,4 +15,13 @@ Exercise 2:
 that can catch the same exception "NullPointerException".
 
 Exercise 3:
--
+- (a): Class Average completed
+- (b): Class Average modified accordingly.
+All number entries included in a Try-Catch statement moved to method entry()
+
+Exercise 4:
+- Class Patient (constructor throwing the exception) complete.
+- Class PatientList (including a Try-Catch statement) complete.
+
+Exercise 5:
+
